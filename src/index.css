@@ -5,9 +5,249 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position:relative;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+/*Global*/
+
+*{
+  box-sizing: border-box;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+li{
+  list-style: none;
+}
+
+/*Title*/
+
+.title{
+  text-align: center;
+}
+
+.title-link{
+  text-decoration: none;
+  color:black;
+}
+
+.addDay{
+  padding:5px;
+  position:fixed;
+  right:10px;
+  top:10px;
+  border-radius: 10px;
+  background: yellowgreen;
+  color:white;
+  font-weight: bold;
+}
+
+.addWord{
+  padding:5px;
+  position:fixed;
+  right:10px;
+  top:50px;
+  border-radius: 10px;
+  background: skyblue;
+  color:white;
+  font-weight: bold;
+}
+
+/*Days*/
+
+.days-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+.days-container li{
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-weight: bold;
+  color:white;
+  background-color: black;
+}
+
+
+/*WordsList*/
+
+h3{
+  text-align: center;
+}
+
+.words-container{
+  width:100vw;
+  height:10;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.words-container table{
+  width:700px;
+  height:700px;
+}
+
+.words-container table tbody{
+
+}
+
+/*Words*/
+
+.done{
+  background:lightgray;
+}
+
+.words-container table tbody tr{
+  border:1px solid lightgray;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.words-container table tbody tr td{
+  font-size:20px;
+  padding: 5px;
+  flex:1;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deleteBtn{
+  background-color:lightpink;
+  border:none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.link{
+  text-decoration: none;
+  color:white;
+}
+
+/*AddDay*/
+
+
+.addDayContainer{
+  width:100%;
+}
+
+.addDayContent{
+  width:400px;
+  height:400px;
+  background:lightgray;
+  border-radius: 20px;
+  margin:0 auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.addDayCount{
+  font-size:30px;
+  font-weight: bold;
+  margin:10px;
+}
+
+.addDayBtn{
+  width:100px;
+  height:50px;
+  background-color:lightyellow;
+  border:none;
+  border-radius: 15px;
+  font-size:20px;
+  font-weight: bold;
+  color:black;
+  margin:5px;
+}
+
+/*AddWord*/
+
+.addWordContainer{
+  width:100%;
+}
+
+.addWordContent{
+  width:400px;
+  height:400px;
+  background:lightgray;
+  border-radius: 20px;
+  margin:0 auto;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.addWordContent label{
+  font-weight: bold;
+}
+
+.addWordContent .inputBox{
+  flex:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addWordContent label{
+  font-size:22px;
+}
+
+.addWordContent input{
+  margin-left:5px;
+  padding: 10px;
+  font-size:15px;
+  outline: none;
+  border:none;
+  border-radius: 10px;
+}
+
+.addWordContent select{
+  width:100px;
+  padding:10px;
+  margin-left: 5px;
+  border:none;
+  border-radius: 10px;
+  outline: none;
+}
+
+.addWordContent button{
+  width:100px;
+  height:50px;
+  border:none;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size:20px;
+  padding:10px;
+  background-color:lightyellow;
+}
+
+/*ErrorPage*/
+.not-found{
+  text-align: center;
+}
+
+@media screen and (max-width:768px){
+  .days-container{
+    flex-direction: column;
+  }
+
+  .words-container {
+    font-size:15px;
+  }
 }

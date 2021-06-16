@@ -1,0 +1,172 @@
+{
+  "days": [
+    {
+      "id": 1,
+      "day": 1
+    },
+    {
+      "id": 2,
+      "day": 2
+    },
+    {
+      "id": 3,
+      "day": 3
+    },
+    {
+      "day": 4,
+      "id": 4
+    },
+    {
+      "day": 5,
+      "id": 5
+    },
+    {
+      "day": 6,
+      "id": 6
+    },
+    {
+      "day": 7,
+      "id": 7
+    },
+    {
+      "day": 8,
+      "id": 8
+    },
+    {
+      "day": 9,
+      "id": 9
+    },
+    {
+      "day": 10,
+      "id": 10
+    }
+  ],
+  "words": [
+    {
+      "id": 2,
+      "day": 1,
+      "ind": "makan",
+      "kor": "먹다",
+      "isDone": true
+    },
+    {
+      "id": 3,
+      "day": 2,
+      "ind": "air",
+      "kor": "물",
+      "isDone": false
+    },
+    {
+      "id": 4,
+      "day": 2,
+      "ind": "tidur",
+      "kor": "자다",
+      "isDone": false
+    },
+    {
+      "id": 5,
+      "day": 3,
+      "ind": "sekolah",
+      "kor": "학교",
+      "isDone": true
+    },
+    {
+      "id": 6,
+      "day": 3,
+      "ind": "pensil",
+      "kor": "연필",
+      "isDone": true
+    },
+    {
+      "id": 10,
+      "day": 4,
+      "ind": "monyet",
+      "kor": "원숭이",
+      "isDone": false
+    },
+    {
+      "id": 11,
+      "day": 5,
+      "ind": "menonton",
+      "kor": "보다",
+      "isDone": false
+    },
+    {
+      "day": "6",
+      "ind": "buku",
+      "kor": "책",
+      "isDone": false,
+      "id": 12
+    },
+    {
+      "day": "8",
+      "ind": "tas",
+      "kor": "가방",
+      "isDone": false,
+      "id": 13
+    },
+    {
+      "day": "7",
+      "ind": "komputer",
+      "kor": "컴퓨터",
+      "isDone": false,
+      "id": 14
+    },
+    {
+      "day": "1",
+      "ind": "teman",
+      "kor": "친구",
+      "isDone": true,
+      "id": 15
+    },
+    {
+      "day": "1",
+      "ind": "minum",
+      "kor": "마시다",
+      "isDone": true,
+      "id": 16
+    },
+    {
+      "day": "2",
+      "ind": "telepon",
+      "kor": "전화",
+      "isDone": false,
+      "id": 17
+    },
+    {
+      "day": "4",
+      "ind": "datang",
+      "kor": "오다",
+      "isDone": false,
+      "id": 19
+    },
+    {
+      "day": "5",
+      "ind": "pergi",
+      "kor": "가다",
+      "isDone": false,
+      "id": 20
+    },
+    {
+      "day": "6",
+      "ind": "papan tulis",
+      "kor": "칠판",
+      "isDone": false,
+      "id": 21
+    },
+    {
+      "day": "7",
+      "ind": "topi",
+      "kor": "모자",
+      "isDone": false,
+      "id": 22
+    },
+    {
+      "day": "9",
+      "ind": "ikan",
+      "kor": "물고기",
+      "isDone": false,
+      "id": 23
+    }
+  ]
+}
