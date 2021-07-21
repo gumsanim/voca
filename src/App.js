@@ -6,28 +6,30 @@ import AddWord from "./components/AddWord";
 import ErrorPage from "./components/ErrorPage";
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 
+// npx json-server ./src/db/data.json --watch --port 3001
+
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-          <Title/>
-          <Switch>
-            <Route exact path="/">
-              <Days/>
-            </Route>
-            <Route path="/day/:day">
-              <WordsList/>
-            </Route>
-            <Route path="/addday">
-              <AddDay/>
-            </Route>
-            <Route path="/addword">
-              <AddWord/>
-            </Route>
-            <Route>
-              <ErrorPage/>
-            </Route>
-          </Switch>
+        <Title/>
+        <Switch>
+          <Route exact path="/">
+            <Days/>
+          </Route>
+          <Route path="/day/:day">
+            <WordsList/>
+          </Route>
+          <Route path="/addday">
+            <AddDay/>
+          </Route>
+          <Route path="/addword">
+            <AddWord/>
+          </Route>
+          <Route>
+            <ErrorPage/>
+          </Route>
+        </Switch>
       </div>
     </BrowserRouter>
   );

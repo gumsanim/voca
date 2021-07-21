@@ -1,9 +1,7 @@
 import {useState} from "react";
-import { useHistory } from "react-router";
 
 export default function Words(props){
 
-    const history = useHistory();
     const [eachWord, setEachWord] = useState(props.words);
     const [isDone, setIsDone] = useState(eachWord.isDone);
     function onChange(){
@@ -44,11 +42,21 @@ export default function Words(props){
     return(
         <>
             <tr className={isDone?"done":null}>
-                <td><input type="checkbox" checked={isDone} onChange={onChange}/></td>
+                <td>
+                    <input 
+                        type="checkbox" 
+                        checked={isDone} 
+                        onChange={onChange}
+                    />
+                </td>
                 <td>{eachWord.ind}</td>                        
                 <td>{eachWord.kor}</td>                        
                 <td>
-                    <button className="deleteBtn" onClick={onDelete}>삭제</button>
+                    <button 
+                        className="deleteBtn" 
+                        onClick={onDelete}
+                    >삭제
+                    </button>
                 </td>                        
             </tr>
         </>

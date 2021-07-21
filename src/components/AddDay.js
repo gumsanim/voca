@@ -37,7 +37,11 @@ export default function AddDay(){
             <div className="addDayContainer">
                 <div className="addDayContent">
                     <div className="addDayCount">총 DAY 수: {days.length}</div>
-                    <button className="addDayBtn" onClick={onAddDay}>Day 추가</button>
+                    <button 
+                        className="addDayBtn"
+                        onClick={onAddDay}
+                    >Day 추가
+                    </button>
                 </div>
             </div>
         </>

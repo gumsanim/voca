@@ -39,54 +39,66 @@
     {
       "day": 10,
       "id": 10
+    },
+    {
+      "day": 11,
+      "id": 11
+    },
+    {
+      "day": 12,
+      "id": 12
+    },
+    {
+      "day": 13,
+      "id": 13
     }
   ],
   "words": [
     {
       "id": 2,
-      "day": 1,
+      "day": "1",
       "ind": "makan",
       "kor": "먹다",
       "isDone": true
     },
     {
       "id": 3,
-      "day": 2,
+      "day": "2",
       "ind": "air",
       "kor": "물",
       "isDone": false
     },
     {
       "id": 4,
-      "day": 2,
+      "day": "2",
       "ind": "tidur",
       "kor": "자다",
       "isDone": false
     },
     {
       "id": 5,
-      "day": 3,
+      "day": "3",
       "ind": "sekolah",
       "kor": "학교",
       "isDone": true
     },
     {
       "id": 6,
-      "day": 3,
+      "day": "3",
       "ind": "pensil",
       "kor": "연필",
       "isDone": true
     },
     {
       "id": 10,
-      "day": 4,
+      "day": "4",
       "ind": "monyet",
       "kor": "원숭이",
       "isDone": false
     },
     {
       "id": 11,
-      "day": 5,
+      "day": "5",
       "ind": "menonton",
       "kor": "보다",
       "isDone": false
@@ -109,7 +121,7 @@
       "day": "7",
       "ind": "komputer",
       "kor": "컴퓨터",
-      "isDone": false,
+      "isDone": true,
       "id": 14
     },
     {
@@ -130,14 +142,14 @@
       "day": "2",
       "ind": "telepon",
       "kor": "전화",
-      "isDone": false,
+      "isDone": true,
       "id": 17
     },
     {
       "day": "4",
       "ind": "datang",
       "kor": "오다",
-      "isDone": false,
+      "isDone": true,
       "id": 19
     },
     {
@@ -158,7 +170,7 @@
       "day": "7",
       "ind": "topi",
       "kor": "모자",
-      "isDone": false,
+      "isDone": true,
       "id": 22
     },
     {
@@ -167,6 +179,62 @@
       "kor": "물고기",
       "isDone": false,
       "id": 23
+    },
+    {
+      "day": "11",
+      "ind": "uang",
+      "kor": "돈",
+      "isDone": false,
+      "id": 24
+    },
+    {
+      "day": "10",
+      "ind": "daging",
+      "kor": "고기",
+      "isDone": true,
+      "id": 25
+    },
+    {
+      "day": "1",
+      "ind": "bukan",
+      "kor": "아니다",
+      "isDone": false,
+      "id": 26
+    },
+    {
+      "day": "1",
+      "ind": "teh",
+      "kor": "차",
+      "isDone": false,
+      "id": 28
+    },
+    {
+      "day": "1",
+      "ind": "negara",
+      "kor": "나라",
+      "isDone": false,
+      "id": 29
+    },
+    {
+      "day": "1",
+      "ind": "enak",
+      "kor": "맛있다",
+      "isDone": true,
+      "id": 30
+    },
+    {
+      "day": "1",
+      "ind": "kopi",
+      "kor": "커피",
+      "isDone": true,
+      "id": 31
+    },
+    {
+      "day": "1",
+      "ind": "berdandan",
+      "kor": "화장하다",
+      "isDone": false,
+      "id": 32
     }
   ]
 }

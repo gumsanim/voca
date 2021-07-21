@@ -1,4 +1,4 @@
-import {Link, History} from "react-router-dom";
+import {Link} from "react-router-dom";
 import { useState, useEffect} from "react";
 
 export default function Days(){

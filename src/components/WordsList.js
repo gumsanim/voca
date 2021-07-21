@@ -1,9 +1,10 @@
 import { useState,useEffect } from "react"
-import {useParams} from "react-router-dom";
+import {useParams, useHistory} from "react-router-dom";
 import Words from "./Words";
 
 export default function WordsList(){
 
+    const history = useHistory();
     const [wordsData, setWordsData] = useState([])
     const {day} = useParams();
     useEffect(()=>{
@@ -30,6 +31,11 @@ export default function WordsList(){
                     }
                     </tbody>
                 </table>
+                <button 
+                    className="back" 
+                    onClick={()=>{history.goBack()}}
+                >뒤로가기
+                </button>
             </div>
         </>
     )

@@ -43,16 +43,23 @@ export default function AddWord(){
     
     return (
         <>
-        <div className="addWordContainer">
-         
+            <div className="addWordContainer">
                 <form className="addWordContent" onSubmit={onSubmit}>
                     <div className="inputBox">
                         <label>인니어: </label>
-                        <input type="text" placeholder="인니어 단어 입력" ref={indRef}></input>
+                        <input 
+                            type="text" 
+                            placeholder="인니어 단어 입력" 
+                            ref={indRef}
+                        />    
                     </div>
                     <div className="inputBox">
                         <label>한국어: </label>
-                        <input type="text" placeholder="한국어 뜻 입력" ref={korRef}></input>
+                        <input 
+                            type="text" 
+                            placeholder="한국어 뜻 입력" 
+                            ref={korRef}
+                        />
                     </div>
                     <div className="inputBox">
                         <label>Day: </label>
@@ -69,7 +76,7 @@ export default function AddWord(){
                         <button>확인</button>
                     </div>
                 </form>
-        </div>
-    </>
+            </div>
+        </>
     )
 }
